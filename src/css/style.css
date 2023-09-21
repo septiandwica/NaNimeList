@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root{
+  --main-color: #27005D;
+  --second-color: #9400FF;
+  --third-color: #AED2FF;
+  --accent-color: #E4F1FF;
+  --white-color: #ffff;
+  --black-color:#000;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Often Used */
+.btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.title h1{
+  font-size: 40px;
+}
+
+
+
+/* Jumbotron */
+.jumbotron{
+  height: 100vh;
+  background: url(../img/bg-jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.discover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  background-color: #27005d50;
+
+}
+.discover h1{
+  color: var(--white-color);
+  font-size: 52px;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.discover h1 .yellow{
+  color: yellow;
+}
+.discover p{
+  color: var(--white-color);
+  font-weight: 500;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.discover a{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+}
+.btn-find{
+  color: var(--white-color);
+  background-color: red;
+  box-shadow: 0 2px 10px rgb(145, 0, 0);
+}
+.btn-find:hover{
+  background-color: rgb(222, 0, 0);
+}
+
+
+/* about developer */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.profile .title h1{
+  font-size: 32px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.profile .card {
+  display: flex;
+  max-width: 950px;
+}
+.profile .card .img-container img {
+  width: 320px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px #160035;
+}
+.profile .card .half {
+  margin: 20px;
+}
+.profile .card .half .name{
+  margin-top: 10px;
+}
+.profile .card .half p{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.btn-mail{
+  background-color: var(--accent-color);
+  font-weight: 600;
+}
+.btn-mail:hover{
+  background-color: #adb6c0;
+  color: var(--white-color);
+}
+
+
+/* AnimeList */
+.animelist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.animelist .title h1{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.btn-detail{
+  color: var(--white-color);
+  background-color: red;
+  box-shadow: 0 2px 10px rgb(145, 0, 0);
+}
+.btn-detail:hover{
+  background-color: rgb(222, 0, 0);
+}
+
+li {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 100px;
+  overflow-x: scroll;
+}
+th,
+td {
+  padding: 20px;
+  border: 1px solid var(--white-color);
+}
+
+
+
+
+/* Footer */
+footer .copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  background-color: var(--main-color);
+  height: 40px;
+}
+footer .copyright a{
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+
+
+

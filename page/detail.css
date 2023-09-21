@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root{
+  --main-color: #27005D;
+  --second-color: #9400FF;
+  --third-color: #AED2FF;
+  --accent-color: #E4F1FF;
+  --white-color: #ffff;
+  --black-color:#000;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Often Used */
+.btn {
+  padding: 8px 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Detail Black Clover */
+.detail{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: row;
+  
+}
+
+.desc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+}
+.desc-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9500ff2a;
+  padding: 10px 10px;
+  margin-right: 20px;
+}
+.desc-left .no-content{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: start;
+  text-align: left;
+}
+
+.desc-left .no-content .btn-social i{
+  font-size: 20px;
+}
+.desc-left .no-content .btn-social{
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  margin: 10px;
+}
+.desc-left .img-container{
+  margin-bottom: 20px;
+  width: 230px;
+
+}
+.desc-left .img-container img{
+  width: 230px;
+}
+.desc-left  .more{
+  width: 200px;
+}
+.desc-right .about{
+  display: flex;
+  
+}
+.desc-right .about .base-rating{
+  display: flex;
+  flex-direction: column;
+}
+.desc-right .about .base-rating .rating,
+.desc-right .about .base-rating .reaction
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 10px 0px;
+  background-color: #9500ff2a;
+}
+.yellow{
+  color: yellow;
+}
+
+.desc-right .about .base-rating .reaction .btn{
+  background-color: red;
+  margin: 10px;
+  color: var(--white-color);
+}
+.desc-right .about .base-rating .reaction .btn:hover{
+  background-color: rgb(169, 0, 0);
+}
+
+.desc-right .about .base-rating .rating .ranked{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+.desc-right .about .base-rating .rating .ranked h3{
+  margin-right: 30px;
+  margin-left: 8px;
+}
+.desc-right .about .base-rating .rating .score,
+.desc-right .about .base-rating .rating .ranked, 
+.desc-right .about .base-rating .rating .pop{
+  text-align: center;
+  margin-right: 20px;
+  padding: 20px ;
+}
+
+.embed-frame iframe{
+  height: 228px;
+  width: 310px;
+}
+
+.desc-right .synopsis{
+  background-color: #9500ff2a;
+  padding: 20px;
+}
+
+.container .btn{
+  margin-top: 20px;
+}
+.container .btn-back{
+  background-color: var(--second-color);
+  color: var(--white-color);
+}
+.container .btn-home{
+  background-color: var(--second-color);
+  color: var(--white-color);
+}
+.container .btn-back:hover{
+  background-color: #8900ecfa;
+}
+.container .btn-home:hover{
+  background-color: #8900ecfa;
+}
+.container .btn-social:hover{
+  background-color: #210050d4;
+}
+
+
+/* Footer */
+footer .copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+  height: 40px;
+}
+footer .copyright a{
+  text-decoration: none;
+  color: var(--white-color);
+}
